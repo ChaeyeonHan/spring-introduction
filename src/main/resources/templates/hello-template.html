@@ -1,0 +1,6 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+<!-- hello! empty는 없어도 작동한다. 값을 넘겨받지 못하면 hello! empty가 나오고,
+  값을 넘겨받았다면 hello {name}으로 치환된다. -->
+</body></html>
